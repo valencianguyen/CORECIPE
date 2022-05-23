@@ -1,0 +1,289 @@
+body {
+  margin-top: -19px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.co {
+  color:  #B3DEE5;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.recipe {
+  color: #628B48;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color:#fffaeb;
+}
+
+.map {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.world-map{
+  display: flex;
+  justify-content: center;
+} 
+
+#map-container {
+height: 654px;
+width: 1250px;
+}
+
+.pin {
+  height: 30px;
+  width: 19px;
+
+}
+
+.pin:hover {
+  opacity: 99%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.africa {
+position: relative;
+top: -300px;
+left: 680px;
+}
+
+.asia {
+position: relative;
+top: -450px;
+left: 930px;
+}
+
+.australia-oceania {
+position: relative;
+border-radius: 15px; 
+top: -175px;
+left: 1030px;
+}
+
+.europe {
+position: relative;
+border-radius: 15px; 
+top: -450px;
+left: 610px;
+}
+
+.namerica {
+position: relative;
+border-radius: 15px; 
+top: -450px;
+left: 160px;
+}
+
+.samerica {
+position: relative;
+border-radius: 15px; 
+top: -210px;
+left: 310px;
+}
+
+.africaInfo {
+  position: relative;
+  text-align: center;
+  background-color: #F6F1E0;
+  color: #628B48;
+  font-size: 18px;
+  border-radius: 15px; 
+  padding: .5%;
+  top: -320px;
+  left: 700px;
+  width: 65px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.asiaInfo {
+  position: relative;
+  text-align: center;
+  background-color: #F6F1E0;
+  color: #628B48;
+  font-size: 18px;
+  border-radius: 15px; 
+  padding: .5%;
+  top: -500px;
+  left: 970px;
+  width: 55px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.australia-oceaniaInfo {
+  position: relative;
+  text-align: center;
+  background-color: #F6F1E0;
+  color: #628B48;
+  font-size: 18px;
+  border-radius: 15px; 
+  padding: .5%;
+  top: -262px;
+  left: 1095px;
+  width: 150px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.europeInfo {
+  position: relative;
+  text-align: center;
+  background-color: #F6F1E0;
+  color: #628B48;
+  font-size: 18px;
+  border-radius: 15px; 
+  padding: .5%;
+  top: -570px;
+  left: 697px;
+  width: 69px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.namericaInfo {
+  position: relative;
+  text-align: center;
+  background-color: #F6F1E0;
+  color: #628B48;
+  font-size: 18px;
+  border-radius: 15px; 
+  padding: .5%;
+  top: -600px;
+  left: 270px;
+  width: 85px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.samericaInfo {
+  position: relative;
+  text-align: center;
+  background-color: #F6F1E0;
+  color: #628B48;
+  font-size: 18px;
+  border-radius: 15px; 
+  padding: .5%;
+  top: -420px;
+  left: 445px;
+  width: 85px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+ 
+.heading {
+  width: 300;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.missionw {
+  color: #628B48;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  margin-right: 40px;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(179, 222, 229, 1);
+  opacity: 90%;
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 17%;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2.5;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fffaeb;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #628B48;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -8.25px;
+  left: 15px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.menu {
+  color: #cf6800ff;
+}
+
+nav{
+position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fffaeb;
+  height: 73px;
+  padding: 10px;
+display: flex;
+justify-content: center;
+}
+
+.cool {
+  display: flex;
+  align-self: center;
+  line-height: 1.8;
+}
+
+.mymenu {
+  margin-right: auto;
+}
+
+.cool {
+  margin-right: auto;
+  margin-left: -743px;
+}

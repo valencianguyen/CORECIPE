@@ -1,0 +1,282 @@
+body {
+  margin-top: -19px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.co {
+  color:  #B3DEE5;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.recipe {
+  color: #628B48;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color:#fffaeb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.heading {
+  width: 300;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(179, 222, 229, 1);
+  opacity: 90%;
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 17%;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2.5;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fffaeb;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #628B48;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -8.25px;
+  left: 15px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.menu {
+  color: #cf6800ff;
+}
+
+nav{
+position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fffaeb;
+  height: 73px;
+  padding: 10px;
+display: flex;
+justify-content: center;
+}
+
+.cool {
+  display: flex;
+  align-self: center;
+  line-height: 1.8;
+  margin-right: auto;
+  margin-left: -743px;
+}
+
+.mymenu {
+  margin-right: auto;
+}
+
+.continent {
+  color: #FFB433;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.gftag {
+  width: 50;
+  height: 50;
+  display: inline-block;
+  position:relative;
+  top: -2px; 
+}
+
+.kwktag {
+  width: 60;
+  height: 50;
+  display: inline-block;
+  position:relative;
+  top: -5px; 
+}
+
+.timetag {
+  width: 50;
+  height: 50;
+  display: inline-block;
+  position:relative;
+  top: -4px; 
+}
+
+.vtag {
+  width: 40;
+  height: 40;
+  margin-bottom: 10px;
+  display: inline-block;
+  position:relative;
+  top: 3px; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.keyimg {
+  width: 280;
+  height: 280;
+  display: inline-block;
+}
+
+.searchbar {
+
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  background-color: #628B48;
+  border: transparent;
+  width: 50%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 50px;
+}
+.searchbar::placeholder {
+  color: #B3DEE5;
+  border: transparent;
+}
+
+.africaText{
+  font-size: 24px;
+}
+
+.backSearch:hover,
+  .searchBar:focus {
+    background-color: #628B48;
+    border: transparent;
+}
+
+.result {
+  display: flex;
+  background-color:#cf6800ff;
+  padding: 15px;
+  border-top: 1px solid #cf6800ff;
+  width: 250px;
+  flex-direction: column;
+}
+
+.foods {
+  width: 25%;
+  
+  display: inline-block;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 30px;
+  margin-top:10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B3DEE5;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p {
+  display: inline;
+}
+img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+.full {
+  display: flex;
+  height: auto;
+  justify-content: space-evenly;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+.country{
+  color: #861F08;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info {
+  color: #ffe8e2ff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
